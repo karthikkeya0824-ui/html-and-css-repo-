@@ -1,0 +1,179 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.title {
+  color: black;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: x-large;
+  margin: 0px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-img {
+  margin-top: 25px;
+  width: 530px;
+  height: 520px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.about-me-text {
+  color: black;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.header-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-header-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-header-two {
+  display: flex;
+  flex-direction: row;
+}
+
+.projects-button {
+  background-color: black;
+  color: white;
+  border: none;
+  margin-right: 25px;
+  transition: 0.3s;
+}
+
+.projects-button:hover {
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.pickles {
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: large;
+  font-weight: bold;
+}
+
+.pickles:hover {
+  color: black;
+}
+
+.projects-2-button {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.43s;
+  margin-right: 25px;
+}
+
+.projects-2-button:hover {
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.project-3-button {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.43s;
+}
+
+.project-3-button:hover {
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+.resumes {
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: large;
+  font-weight: bold;
+}
+
+.resumes:hover {
+  color: black;
+}
+
+.contact-button {
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 3px;
+  margin-right: 25px;
+  font-family: cursive;
+  font-size: large;
+  font-weight: bold;
+}
+.contact-button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.43s;
+}
+.skill {
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 25px;
+  font-family: cursive;
+  font-size: large;
+  font-weight: bold;
+}
+
+.skill:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.43s;
+}
+
+.conclusion {
+  color: black;
+  font-family: cursive;
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 0;
+}
+
+.about-me-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: Center;
+  align-items: top;
+}
+
+.os {
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: large;
+  font-weight: bold;
+}
+
+.os:hover {
+  color: black;
+}

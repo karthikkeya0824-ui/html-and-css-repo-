@@ -1,0 +1,404 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: center;
+  color: white;
+  font-family: cursive;
+  font-size: x-large;
+}
+
+.text-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  margin-top: 40px;
+  height: 60px;
+  align-items: center;
+}
+
+.row-one {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  margin-top: 110px;
+  height: 70px;
+  align-items: Center;
+}
+
+.row-two {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  margin-top: 20px;
+  height: 70px;
+  align-items: Center;
+}
+
+.row-three {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  margin-top: 20px;
+  height: 70px;
+  align-items: Center;
+}
+.one {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 140px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.one:hover {
+  background-color: white;
+  color: black;
+}
+
+.two {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.two:hover {
+  background-color: white;
+  color: black;
+}
+
+.three {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.three:hover {
+  background-color: white;
+  color: black;
+}
+
+.four {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.four:hover {
+  background-color: white;
+  color: black;
+}
+
+.five {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.five:hover {
+  background-color: white;
+  color: black;
+}
+
+.six {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 140px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.six:hover {
+  background-color: white;
+  color: black;
+}
+
+.seven {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.seven:hover {
+  background-color: white;
+  color: black;
+}
+
+.eight {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.eight:hover {
+  background-color: white;
+  color: black;
+}
+
+.nine {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.nine:hover {
+  background-color: white;
+  color: black;
+}
+
+.zero {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.zero:hover {
+  background-color: white;
+  color: black;
+}
+
+.back {
+  background-color: white;
+  width: 55px;
+  height: 20px;
+  border: none;
+  transition: 0.45s;
+}
+
+.back:hover {
+  background-color: black;
+}
+
+.back-to-screen {
+  color: black;
+  font-family: tahoma;
+  text-decoration: none;
+}
+
+.back-to-screen:hover {
+  color: white;
+}
+
+.percent {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 140px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.percent:hover {
+  background-color: white;
+  color: black;
+}
+
+.star {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.star:hover {
+  background-color: white;
+  color: black;
+}
+
+.subtract {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.subtract:hover {
+  background-color: white;
+  color: black;
+}
+
+.add {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.add:hover {
+  background-color: white;
+  color: black;
+}
+
+.divide {
+  border-style: solid;
+  color: white;
+  border-color: grey;
+  font-size: xxx-large;
+  border-width: 3px;
+  margin-right: 70px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: tahoma;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  transition: 0.45s;
+}
+
+.divide:hover {
+  background-color: white;
+  color: black;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.textarea::after {
+  content: "|";
+  margin-left: 20px;
+  color: white;
+  font-family: sans-serif;
+  font-size: xx-large;
+  animation: blink 1s step-end infinite;
+}

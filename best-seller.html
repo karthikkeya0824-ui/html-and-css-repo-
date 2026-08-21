@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style >
+      .mail {
+        color:grey;
+        font-weight:bold;
+        font-family:arial;
+        text-align:center;
+      }
+
+      .filler {
+        border-style:solid;
+        width:250px;
+        padding-top:9px;
+        border-color:black;
+        margin-left:25px;
+      }
+
+      .instructions {
+        color:grey;
+        font-weight:lighter;
+        font-family:arial;
+      }
+
+      .agree {
+        background-color:rgba(0, 0, 0, 0.76);
+        border:none;
+        color:white; 
+        font-weight:bold;
+        font-family:arial;
+        padding-right:154px;
+        padding-left: 154px;
+        padding-top: 13px;
+        padding-bottom:13px;
+        border-radius:27px;
+        margin-left: 4px;
+    }
+
+    .container {
+        height:360px;
+        border: 1px solid black;
+        width:400px;
+        padding:20px;
+        border-width:1px;
+        text-align:center;
+        box-sizing:border-box;
+    }
+
+    .website-in {
+      color:white;
+      text-decoration:none;
+    }
+
+     body {
+        display:flex;
+        justify-content:center;
+        min-height:100vh;
+        align-items:center;
+        margin:0;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <p class="mail">
+      Email
+    </p>
+
+    <input class="filler" type="text">
+
+    <p class="instructions">
+    By clicking Agree you'll be able to enter the website.
+  </p>
+
+  <button class="agree">
+   <a class="website-in" href="all-pickles.html">Agree</a>  
+  </button>
+  </div>
+  </body>
+ </html>

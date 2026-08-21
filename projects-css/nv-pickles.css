@@ -1,0 +1,100 @@
+.website-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/*  TURNS THE CONTAINER INTO A FLEX BOX AND MOVES THE CONTENT IN THE DIV TO THE CENTER */
+
+.name-of-the-website {
+  font-family: tahoma;
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+/*  FONT STYLE IS EDITED  */
+
+.HEADER {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* HEADER IS TURNED INTO INTO A FLEXBOX AND
+ THE ELEMENTS IN IT
+ ARE PLACED ON THE BOTH ENDS OF THE WEBPAGE 
+ */
+
+.HOME {
+  background-color: black;
+  border: none;
+  width: 130px;
+  height: 39px;
+}
+
+.link-to-home {
+  color: white;
+  text-decoration: none;
+}
+
+.veg-pickles {
+  background-color: black;
+  border: none;
+  width: 130px;
+  height: 39px;
+}
+
+.veg-pickles-link {
+  color: White;
+  text-decoration: none;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  place-items: center;
+}
+
+.order-link {
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+
+.pickle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 420px;
+  margin-top: 100px;
+  background-color: rgb(0, 0, 0);
+}
+
+.pickle-photo {
+  width: 240px;
+  height: 280px;
+  margin-top: 20px;
+}
+
+.name {
+  font-family: cursive;
+  font-size: medium;
+  margin-top: 14px;
+  font-weight: bolder;
+  color: white;
+}
+
+.cost {
+  color: white;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.order-now {
+  border-radius: 13px;
+  width: 220px;
+}

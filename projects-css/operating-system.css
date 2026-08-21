@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  flex-direction:column;
+}
+
+.box {
+  width: 400px;
+  border: 14px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: White;
+  height: 70px;
+  font-size: x-large;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-bottom:150px;
+}
+
+.text {
+  color: White;
+  font-family: popins;
+  font-weight: bold;
+  font-size: large;
+} 
+
+.left-holder {
+  display: Flex;
+  flex-direction: column;
+  background-color: white;
+  width: 70px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  justify-content: flex-start;
+  padding-top: 20px;
+  gap: 115px;
+  align-items: center;
+}
+
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: Center;
+}
+
+.material-symbol-outlined {
+  color: black;
+  font-size: 90px;
+}
+
+.icon-one {
+  color: black;
+  font-weight: bold;
+}
+
+.box:hover {
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 13px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.header {
+  display: Flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 51px;
+  color: black;
+  font-family: tahoma;
+  font-weight: bolder;
+  font-size: x-large;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid;
+  border-color: #333;
+  border-width:13px;
+}
+
+.header:hover {
+  background-color: black;
+  color: white;
+}
+
+.weather {
+  color: blue;  font-weight: bold;
+  font-size: medium;
+  padding-left: 19px;
+}
+.searchbar {
+  background-color: white;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 9px;
+  height: 16px;
+}
+
+.sub-header {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: center;
+}
+
+.read-manual {
+  color:White;
+  background-color:black;
+  height:35px;
+  width:120px;
+  border-style:solid;
+  border-width: 4px;
+  border-color:White;
+}
+
+.read {
+  color:White;
+  text-decoration:none;
+}
