@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <HEAD>
+<style>
+  .title-container {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin:0;
+  }
+
+  .name{
+    font-family:verdana;
+    font-size:x-large;
+    color:white;
+    font-weight:bold;
+    margin:0;
+  }
+
+  .header {
+    display:Flex;
+    flex-direction:row;
+    justify-content:space-between;
+  }
+
+  .phone-no {
+     font-family:cursive;
+    font-weight:bolder;
+    font-size:large;
+    color:White;
+  
+  }
+
+  .mail-me {
+    color:White;
+   font-family:cursive;
+    font-weight:bolder;
+    font-size:large;
+    margin-right:25px;
+  }
+
+  .link-proj {
+    font-family:cursive;
+    font-weight:bolder;
+    font-size:large;
+    color:White;
+    margin:0;
+  }
+
+  .skill-set {
+    font-family:cursive;
+    font-weight:bolder;
+    font-size:large;
+    color:White;
+    margin-right:25px;
+  }
+
+  .img-me {
+    width:610px;
+    height:570px ;
+    border-radius:50%;
+    margin-top:35px;
+    margin-right:25px;
+  }
+
+  .proj-button {
+    background-color: black;
+    border:none;
+  }
+  .link-proj {
+    text-decoration:none;
+  }
+
+.sub-header-one {
+display:inline-flex;
+flex-direction:row;
+justify-content:space-between;
+}
+
+.sub-header-two {
+  display:inline-flex;
+flex-direction:row;
+justify-content:space-between;
+}
+
+.info {
+display:flex;
+flex-direction: row;
+
+}
+
+.about-me {
+    color:White;
+   font-family:cursive;
+    font-weight:bolder;
+    font-size:x-large;
+    margin-top:100px;
+}
+
+
+</style>
+  </HEAD>
+  <body style="background-color:rgb(22, 137, 204);">
+   <div class="title-container">
+    <p class="name">
+      PORTFOLIO
+    </p>
+   </div>        
+    <!-- header open -->
+   <div class="header">
+
+<div class="sub-header-one">
+   <p class="mail-me">
+      mail:karthikkeya.0824@gmail.com
+    </p>
+
+
+    <p class="phone-no">
+      phone:7386179523
+    </p>
+</div>
+<div class="sub-header-two">
+<p class="skill-set">
+      skill:html and css
+    </p>
+    <button class="proj-button">
+          <a class="link-proj" href="home-page.html">
+      my project
+    </a>
+    </button>
+
+</div> 
+    
+</div>
+<!-- header closed -->
+<div class="info">
+
+<div class="img-container">
+ <img class="img-me" src="images-big-project/image-three.jpg">
+</div>
+<div class="about-me">
+   <p class="about">
+    Hello!
+</p>
+
+<p class="about-two">
+    My name is karthikeya. and I am a student passionate about web development and  I have completed learning 
+    html and css and currently building projects to level up my skill.I focus on creating clean and well
+    structured websites while continuously improving my understanding of web development.My goal is to grow
+     into a full stack developer
+</p>
+
+</div>
+
+
+
+   
+  </body>
+</html>
