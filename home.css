@@ -1,0 +1,143 @@
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.portfolio-button {
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  width: 130px;
+  height: 35px;
+  justify-content: center;
+  align-items: Center;
+  border: none;
+}
+
+.portfolio {
+  color: white;
+  font-family: cursive;
+  text-decoration: none;
+  font-size: large;
+}
+
+.log-in-link {
+  color: white;
+  font-family: cursive;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.all-pickles {
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  width: 130px;
+  height: 35px;
+  justify-content: center;
+  align-items: Center;
+  border: none;
+}
+
+.all-pickles-button {
+  color: white;
+  font-family: cursive;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.veg-pickles {
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  width: 130px;
+  height: 35px;
+  justify-content: center;
+  align-items: Center;
+  border: none;
+}
+
+.veg-pickles-link {
+  color: white;
+  font-family: cursive;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.non-veg-pickles {
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  width: 130px;
+  height: 35px;
+  justify-content: center;
+  align-items: Center;
+  border: none;
+}
+
+.non-veg-pickles-link {
+  color: white;
+  font-family: cursive;
+  font-size: medium;
+  text-decoration: none;
+}
+.image-container {
+  height: 480px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.logo {
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+}
+
+.para {
+  color: white;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: x-large;;
+  line-height: 1.5;
+  margin-left: 30px;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sub-header-one,
+.sub-header-two {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+ 
+
+
+
+

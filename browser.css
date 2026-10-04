@@ -1,0 +1,162 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: tahoma;
+  font-weight: bold;
+  color: White;
+  height: 40px;
+  font-size: large;
+}
+
+.text-one {
+  margin-right: 25px;
+  margin-top: 8px;
+}
+
+.text-two {
+  margin-right: 25px;
+  margin-top: 8px;
+}
+
+.text-three {
+  margin-top: 8px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: xxx-large;
+  font-family: tahoma;
+  align-items: Center;
+  height: 400px;
+  background-color: black;
+}
+
+.searchbar {
+  width: 390px;
+  border-radius: 2dvb;
+  border-style: solid;
+  border-width: 6px;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.searchbar::after {
+  content: "|";
+  margin-left: 20px;
+  color: white;
+  font-family: sans-serif;
+  font-size: large;
+  animation: blink 1s step-end infinite;
+}
+
+.player {
+  background-color: solid #333;
+  color: black;
+  border-color: black;
+  border-width: 3px;
+  width: 170px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: large;
+  height: 45px;
+}
+
+.player:hover {
+  background-color: black;
+  color: White;
+}
+
+.type {
+  background-color: solid #333;
+  color: black;
+  border-color: black;
+  border-width: 3px;
+  width: 170px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: large;
+  height: 45px;
+}
+
+.type:hover {
+  background-color: black;
+  color: White;
+}
+
+.fonts {
+  background-color: solid #333;
+  color: black;
+  border-color: black;
+  border-width: 3px;
+  width: 170px;
+  height: 45px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.fonts:hover {
+  background-color: black;
+  color: White;
+}
+
+.app {
+  background-color: solid #333;
+  color: black;
+  border-color: black;
+  border-width: 3px;
+  width: 170px;
+  height: 45px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.app:hover {
+  background-color: black;
+  color: White;
+}
+
+.app-row {
+  margin-top: 70px;
+}
+
+.back {
+  background-color: solid #333;
+  color: black;
+  border-color: black;
+  border-width: 3px;
+  width: 370px;
+  height: 45px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: large;
+  margin-top: 95px;
+}
+
+.back:hover {
+  background-color: black;
+}
+
+.back-to-os {
+  color: black;
+  text-decoration: none;
+  font-size: xx-large;
+}
+
+.back-to-os:hover {
+  color: white;
+}

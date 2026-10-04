@@ -1,0 +1,112 @@
+ .header {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: tahoma;
+        font-weight: bold;
+      }
+
+      .main-text {
+        color: gray;
+      }
+
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+
+      .main-text::after {
+        content: "|";
+        margin-left: 20px;
+        color: white;
+        font-family: sans-serif;
+        font-size: large;
+        animation: blink 1s step-end infinite;
+      }
+
+      .footer {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        color: black;
+        font-weight: bolder;
+        font-size: large;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: white;
+        height: 20px;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .sub-footer-one {
+        display: flex;
+        flex-direction: row;
+        align-items: Center;
+        justify-content: Space-between;
+      }
+
+      .symbol-one {
+        margin-left: 25px;
+      }
+
+      .material-symbols-outlined {
+        margin-right: 15px;
+      }
+
+      .sec-one {
+        margin-right: 20px;
+      }
+      .sec-two {
+        margin-right: 20px;
+      }
+
+      .sec-three {
+        margin-right: 20px;
+      }
+
+      .sec-four {
+        margin-right: 20px;
+      }
+
+      .sec-five {
+        margin-right: 20px;
+      }
+
+      .sec-six {
+        margin-right: 20px;
+      }
+
+      .icon-three {
+        margin-right: 0px;
+      }
+
+      .back-button {
+        color: black;
+        height: 20px;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #333;
+      }
+
+      .back-button:hover {
+        background-color: black;
+      }
+      .go-back {
+        text-decoration: none;
+        font-size: small;
+        font-weight: bold;
+      }
+
+      .go-back:hover {
+        color: White;
+      }

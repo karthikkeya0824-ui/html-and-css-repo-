@@ -1,0 +1,126 @@
+      .container {
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        gap:20px;
+        flex-wrap:wrap;
+        margin-top:50px;
+      }
+
+     .profile {
+      display:flex;
+      flex-direction:column;
+      width:320px;
+      box-shadow:15px 15px 15px rgba(0, 0, 0, 0.15);
+      background-color:lightcoral;
+      height:360px;
+      margin-right:80px;
+      margin-left:135px;
+      margin-bottom:15px;
+      border-radius:10px;
+}
+     
+     .info {
+      display:flex;
+      flex-direction:column;
+      margin-bottom:0px;
+      height:300px;
+      margin-left:50px;
+      line-height:1.6px;
+      margin-bottom:0px;
+      font-family:cursive;
+      color:white;
+     }
+
+
+     .app-name {
+      text-align:center;
+      color:rgb(70, 6, 233);
+      font-family:cursive;
+      font-size:27px;
+      font-weight:bolder;
+    }
+
+    .profile-no {
+      color:purple;
+      font-family:cursive;
+      margin-left:140px;
+      margin-bottom:20px;
+      margin-top:5px;
+    }
+
+  .test {
+    background-color:rgb(44, 178, 255);
+    color:white;
+    border:none;
+    height:35px;
+    width:180px;
+    font-family:cursive;
+
+  }
+
+ .call {
+    background-color:lightslategrey;
+    color:snow;
+    border:none;
+    height:29px;
+    width:180px;
+    cursor:pointer;
+    font-family:cursive;
+    margin-bottom:5px;
+    }
+
+    .text {
+    font-weight:lighter;
+    font-size:25px;
+   text-align:center;
+    font-family:cursive;
+     
+    }
+
+    .data-reciver {
+     text-align:center;
+     font-family:cursive;
+    }
+
+    .mail {
+   text-align:center;
+    color:red;
+    font-family:cursive;
+    margin-top:10px;
+    }
+
+    .phone-no {
+  color:blueviolet;
+  font-family:cursive;
+  text-align:center;
+
+  }
+
+  .greeting {
+  font-size:larger;
+  text-align:center;
+  color:rgb(168, 67, 67);
+  font-family:cursive;
+  }
+
+  .final-text {
+    display:flex;
+    max-width:800px;
+    flex-direction:column;
+    margin:  40px auto;
+    align-items:center;
+  }
+
+  .buttons {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 10px;
+  }
+
+  .go-back {
+    font-family:verdana;
+     COLOR:rgb(20, 174, 225);
+     text-decoration:none;
+  }
